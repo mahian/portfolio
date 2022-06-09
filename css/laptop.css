@@ -1,0 +1,38 @@
+nav {
+  flex-direction: column;
+  background: white;
+  color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.nav_menu {
+  flex-direction: column;
+  width: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+  height: 0rem;
+  justify-content: center;
+}
+.nav_menu .menu a {
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.nav_menu .menu a:hover {
+  transform: none;
+  background: var(--color-3);
+}
+#ham_icon {
+  display: block;
+}
+.logos {
+  width: 100%;
+}
+#ham_icon {
+  display: block;
+}
+.nav_menu .menu {
+  flex-direction: column;
+  width: 100%;
+}

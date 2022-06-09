@@ -1,0 +1,25 @@
+.Services_area {
+  grid-template-columns: 1fr;
+}
+.portfolio_area {
+  grid-template-columns: 1fr;
+}
+.skills_area {
+  grid-template-columns: 1fr;
+}
+.contact_area {
+  grid-template-columns: 1fr;
+}
+form {
+  padding: 30px;
+  position: relative;
+  margin-top: 40px;
+}
+@media only screen and (max-width: 550px) {
+  header {
+    min-height: 800px;
+  }
+  .footer_area {
+    grid-template-columns: 1fr;
+  }
+}

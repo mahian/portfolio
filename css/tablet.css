@@ -1,0 +1,24 @@
+.home_display {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#about .container {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+.Services_area {
+    grid-template-columns: 1fr 1fr;
+}
+.Services_area_2 {
+    grid-template-columns: 1fr;
+}
+.portfolio_area {
+    grid-template-columns: 1fr 1fr;
+}
+.skills_area {
+    grid-template-columns: 1fr 1fr;
+}
+.footer_area {
+    grid-template-columns: 1fr 1fr;
+}

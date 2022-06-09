@@ -1,0 +1,24 @@
+body{
+  transition: 0.5s;
+}
+#services {
+  background: #f5f5f5;
+  transition: all 0.5s;
+}
+.theme {
+  /* background: black; */
+  /* color: white; */
+}
+.Services_area .item {
+  background: white;
+}
+.Services_area_2 .bottom {
+    background: white;
+    color: black;
+}
+.under_theme {
+  /* background: var(--color-3); */
+  /* color: white; */
+  color: black;
+  background: white;
+}
